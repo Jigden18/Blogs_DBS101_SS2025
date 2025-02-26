@@ -15,6 +15,17 @@ Before starting this unit, I had a basic idea that databases were used to store 
 ### 1. **Database vs. DBMS**
 One of the key takeaways from this unit was learning the difference between a **database** and a **database management system (DBMS)**. I initially thought they were the same, but I now understand that a database is just a collection of organized data, while a DBMS is the software that manages and controls access to the data. This distinction helped me appreciate how databases function in large-scale applications. The major differences are stated below :
 
+| Database  | DBMS  |
+|-----------|-------|
+| A collection of related data on individuals, places, or objects is called a database. | A group of programs that allow us to create, handle, and make use of a database is called a database management system (DBMS). |
+| The databases are intended for a relatively limited number of users—ideally a select few users—who access data at various times rather than for a huge number of users who can access data simultaneously. | A big number of users can access the data simultaneously due to the architecture of the database management system. |
+| Very limited information may be changed at once when it comes to databases. | A large amount of data can be modified at once in a database management system (DBMS) because several users can access it simultaneously. |
+| Databases can be operated manually or by computers; however, they can be quite slow if SQL is not utilized to access data. | Information can be retrieved quickly because a database management system uses a computer system. |
+| When an error occurs, the databases do not guarantee that the data will still be accessible. | Data availability is guaranteed by the database management system (DBMS), even in the event of system failures. |
+
+
+![Database vs DBMS](../images/homework.jpg)
+
 
 ### 2. **Types of Data Models**
 Previously, I thought all databases stored data in tables, but I have now learned about different **data models**, including:
@@ -24,11 +35,11 @@ Previously, I thought all databases stored data in tables, but I have now learne
    - **Relational Model** – Uses tables with unique attributes and is the foundation for SQL databases.
 
   <div style="display: flex; justify-content: space-between; gap: 10px;">
-  <div style="width: 60%; text-align: center;">
+  <div style="width: 50%; text-align: center;">
     <img src="../images/ERD.jpg" alt="Entity Relationship Data Model" style="width: 100%; height: auto;">
     <p>Fig.1. the Entity Relationship Data Model.</p>
   </div>
-  <div style="width: 60%; text-align: center;">
+  <div style="width: 50%; text-align: center;">
     <img src="../images/Relational.jpg" alt="Relational Model" style="width: 100%; height: auto;">
     <p>Fig.2. the Relational Model.</p>
   </div>
