@@ -86,13 +86,13 @@ An interesting realization was that SQL is **non-procedural** or **Declarative D
 
 Database system architecture defines how a database is structured and accessed. It is mainly categorized into two types:
 
-#### 1. Two-Tier Architecture
+#### a. Two-Tier Architecture
 - Consists of a **client** (user interface) and a **server** (database).
 - The client directly communicates with the database.
 - **Advantage:** Simple and fast for small applications.
 - **Disadvantage:** Less secure and not scalable.
 
-#### 2. Three-Tier Architecture
+#### b. Three-Tier Architecture
 - Adds an **application server** between the client and the database.
 - The client interacts with the app server, which then processes requests to the database.
 - **Advantage:** More secure, scalable, and suitable for large applications.
