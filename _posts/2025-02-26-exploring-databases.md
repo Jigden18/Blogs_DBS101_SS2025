@@ -4,7 +4,7 @@ layout: post
 ---
 # Understanding Database Systems: My Learning Journey
 
-![Database](images/Database.webp)
+![Database](../images/Database.webp)
 
 
 ## My Initial Understanding of Databases
