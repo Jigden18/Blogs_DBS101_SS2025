@@ -16,14 +16,25 @@ Before starting this unit, I had a basic idea that databases were used to store 
 One of the key takeaways from this unit was learning the difference between a **database** and a **database management system (DBMS)**. I initially thought they were the same, but I now understand that a database is just a collection of organized data, while a DBMS is the software that manages and controls access to the data. This distinction helped me appreciate how databases function in large-scale applications. The major differences are stated below :
 
 
-
-
 ### 2. **Types of Data Models**
 Previously, I thought all databases stored data in tables, but I have now learned about different **data models**, including:
    - **Entity-Relationship Model** – Represents real-world entities and their relationships.
    - **Semi-structured Data Model** – Deals with flexible formats like XML or JSON.
    - **Object-Based Data Model** – Organizes data similar to object-oriented programming.
    - **Relational Model** – Uses tables with unique attributes and is the foundation for SQL databases.
+
+  <div style="display: flex; justify-content: space-between; gap: 10px;">
+  <div style="width: 48%; text-align: center;">
+    <img src="../images/ERD.jpg" alt="Entity Relationship Data Model" style="width: 100%; height: auto;">
+    <p>Fig.1. the Entity Relationship Data Model.</p>
+  </div>
+  <div style="width: 48%; text-align: center;">
+    <img src="../images/Relational.jpg" alt="Relational Model" style="width: 100%; height: auto;">
+    <p>Fig.2. the Relational Model.</p>
+  </div>
+</div>
+
+  
 
 The **relational model** proposedby Edgar F. Codd, a mathematician at IBM Research in 1960's stood out to me because it is widely used in industries and employs **SQL (Sequential Query Language)** for efficient data manipulation. The relational model unlike the early DBMS has separated the logical and physical layers and is easier to maintain.
 
@@ -41,6 +52,15 @@ A concept that fascinated me was **data abstraction**, which simplifies complex 
    - **Physical Level** – Defines how data is stored on disk.
    - **Logical Level** – Describes what data is stored and its relationships.
    - **View Level** – Shows customized views of data to different users.
+
+<div style="display: flex; justify-content: center; padding: 0 25%; text-align: center;">
+  <div>
+    <img src="../images/db_abstraction.png" alt="Data Abstraction levels" style="width: 50vw; height: auto;">
+    <p style="margin-top: 10px;">Fig.3. Data Abstraction levels</p>
+  </div>
+</div>
+
+
 
 This layering makes databases easier to work with, as users don’t need to understand the backend storage mechanics.
 
@@ -67,8 +87,14 @@ Database system architecture defines how a database is structured and accessed. 
 - **Advantage:** More secure, scalable, and suitable for large applications.
 - **Disadvantage:** More complex and requires additional resources.
 
+<div style="display: flex; justify-content: center; padding: 0 25%; text-align: center;">
+  <div>
+    <img src="../images/system_arch.jpg" alt="Database System Architecture" style="width: 50vw; height: auto;">
+    <p style="margin-top: 10px;">Fig.4. Database System Architecture</p>
+  </div>
+</div>
 
-### 7. **Database Engines & System Architecture**
+### 7. **Database Engines**
 Another new concept for me was **database engines** or **Embedded database**, which handle data storage and processing. The main components include:
    - **Storage Manager** – Manages data storage and retrieval.
    - **Query Processor** – Parses and executes queries.
