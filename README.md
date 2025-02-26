@@ -48,9 +48,9 @@ Note: to enable icons you also need to copy over the `_data` folder.
 Your `_config.yml` could for example look like this:
 
 ```yaml
-title: "Blog Title"
-author: "Blog Author"
-description: "My personal blog about ... something"
+title: "DBS101(UNIT BLOGS)"
+author: "Jigden Shakya"
+description: "My personal blog about Database Systems Fundamentals"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
