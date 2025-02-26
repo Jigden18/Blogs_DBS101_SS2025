@@ -115,6 +115,8 @@ I also learned that databases interact with applications using APIs like **ODBC 
 
 We even discussed about the different types of database users and the key roles of **Database Administrators** as a part of flipped classroom followed by an interactive quiz.
 
+![Database vs DBMS](../images/Quiz.png)
+
 ### 8. **Different Types of Database Users**
 Database users are categorized based on their interaction with the database. There are seven main types:
 
