@@ -47,7 +47,7 @@ Previously, I thought all databases stored data in tables, but I have now learne
 
   
 
-The **relational model** proposedby Edgar F. Codd, a mathematician at IBM Research in 1960's stood out to me because it is widely used in industries and employs **SQL (Sequential Query Language)** for efficient data manipulation. The relational model unlike the early DBMS has separated the logical and physical layers and is easier to maintain.
+The **relational model** proposed by Edgar F. Codd, a mathematician at IBM Research in 1960's stood out to me because it is widely used in industries and employs **SQL (Sequential Query Language)** for efficient data manipulation. The relational model unlike the early DBMS has separated the logical and physical layers and is easier to maintain.
 
 ### 3. **Database Design Process**
 Understanding database design was particularly useful. It follows these steps:
