@@ -24,11 +24,11 @@ Previously, I thought all databases stored data in tables, but I have now learne
    - **Relational Model** – Uses tables with unique attributes and is the foundation for SQL databases.
 
   <div style="display: flex; justify-content: space-between; gap: 10px;">
-  <div style="width: 48%; text-align: center;">
+  <div style="width: 60%; text-align: center;">
     <img src="../images/ERD.jpg" alt="Entity Relationship Data Model" style="width: 100%; height: auto;">
     <p>Fig.1. the Entity Relationship Data Model.</p>
   </div>
-  <div style="width: 48%; text-align: center;">
+  <div style="width: 60%; text-align: center;">
     <img src="../images/Relational.jpg" alt="Relational Model" style="width: 100%; height: auto;">
     <p>Fig.2. the Relational Model.</p>
   </div>
@@ -53,9 +53,9 @@ A concept that fascinated me was **data abstraction**, which simplifies complex 
    - **Logical Level** – Describes what data is stored and its relationships.
    - **View Level** – Shows customized views of data to different users.
 
-<div style="display: flex; justify-content: center; padding: 0 25%; text-align: center;">
+<div style="display: flex; justify-content: center; padding: 0 20%; text-align: center;">
   <div>
-    <img src="../images/db_abstraction.png" alt="Data Abstraction levels" style="width: 50vw; height: auto;">
+    <img src="../images/db_abstraction.png" alt="Data Abstraction levels" style="width: auto; height: auto;">
     <p style="margin-top: 10px;">Fig.3. Data Abstraction levels</p>
   </div>
 </div>
