@@ -49,7 +49,6 @@ Before this unit, I thought SQL was just for retrieving data, but I learned it i
 An interesting realization was that SQL is **non-procedural** or **Declarative DML**, meaning we specify what we need, not how to retrieve it unlike it's counterpart **procedural DML**.
 
 ### 6. **Database System Architecture**
-# Database System Architecture
 
 Database system architecture defines how a database is structured and accessed. It is mainly categorized into two types:
 
