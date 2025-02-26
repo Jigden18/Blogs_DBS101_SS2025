@@ -10,7 +10,7 @@ layout: page
 
 
 
-Hello, I’m **Jigden Shakya**, and this blog is dedicated to documenting and sharing insights from my lectures on units. Throughout this blog, I aim to reflect on the key concepts and topics covered in my lectures, providing summaries, explanations, and personal takeaways.
+Hello, I’m **Jigden Shakya**, and this blog is dedicated to documenting and sharing insights from my lectures on Database Systems Fundamentals. Throughout this blog, I aim to reflect on the key concepts and topics covered in my lectures, providing summaries, explanations, and personal takeaways.
 
 As I progress through my studies, I hope this blog serves as a useful resource for both myself and others who are exploring similar subjects. It’s a place where I can deepen my understanding, clarify any uncertainties, and organize my thoughts on various aspects of units and their applications.
 
