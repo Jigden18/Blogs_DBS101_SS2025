@@ -4,9 +4,12 @@ permalink: "/about/"
 layout: page
 ---
 <div style="text-align:center;">
-  <img src="../Blogs_DBS101_SS2025/images/profile.jpg" alt="Author profile" width="200" height="200" style="border-radius:50%;">
+  <img src="../Blogs_DBS101_SS2025/images/profile.jpg" alt="Author profile" width="200" height="200" style="border-radius:50%;"> <br><br>
   <p>Mr. JigdenShakya, Author</p>    
 </div>
+
+<br>
+
 
 
 
