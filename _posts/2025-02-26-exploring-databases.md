@@ -7,6 +7,9 @@ layout: post
 ![Database](../images/Database.webp)
 
 
+
+
+
 ## My Initial Understanding of Databases
 Before starting this unit, I had a basic idea that databases were used to store and organize data. However, I did not fully understand how they worked beyond that. I had heard about SQL and database management systems (DBMS) but was unaware of how crucial they were in handling data efficiently.
 
