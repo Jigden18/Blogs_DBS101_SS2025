@@ -3,7 +3,7 @@ author: "Jigden Shakya"
 description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
 lang: "en"
-excerpt_separator: "\n"
+excerpt_separator: "\n\n"
 date_format: "%B %d, %Y"
 
 # Layout
