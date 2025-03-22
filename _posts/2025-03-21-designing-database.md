@@ -96,6 +96,9 @@ CREATE TABLE Enrollment (
 ![ERD_to_Relational_schema](../images/ERD_to_RSchema.jpg)
 <p style = "text-align:center">Fig.2. ERD to Relational schema.</p>
 
+![Relational_schema](../images/ERD-Relational.jpg)
+<p style = "text-align:center">Fig.3. ERD to Relational schema.</p>
+
 ---
 
 ## Relational Algebra (The Math Behind Databases)  
@@ -108,6 +111,9 @@ Relational algebra is the **theoretical foundation** of database queries. It’s
 - **Union (∪)** → Combines results from two tables.  
 - **Join (⋈)** → Combines rows from two tables based on a common attribute. 
 - **Cartesian product(x)** → Concatenates the tuples from both input relations. 
+- **Difference** → Generate a relation that contains only the tuples that
+appear in the first and not the second of the input
+relations.
 
 📍 **Example:**  
 ```sql
