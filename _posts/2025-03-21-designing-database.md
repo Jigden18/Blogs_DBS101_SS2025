@@ -4,8 +4,7 @@
 
 Ever wondered how databases power everything from social media platforms to university portals and banking apps? Behind every well-structured database is **a solid design**, one that ensures data is **organized, consistent, and easy to retrieve**.  
 
-If you’ve ever struggled to understand how databases are structured, don’t worry, you’re not alone! In this blog, we’re <!-- more -->
-going to break down **four essential topics** that will take you from **database design basics to advanced querying**:  
+If you’ve ever struggled to understand how databases are structured, don’t worry, you’re not alone! In this blog, we’re going to break down **four essential topics** that will take you from **database design basics to advanced querying**:  
 
 ⭐ **Entity-Relationship Diagrams (ERD)** – The blueprint of any database.  
 ⭐ **The Relational Model & Schema Design** – How data is structured into tables.  
