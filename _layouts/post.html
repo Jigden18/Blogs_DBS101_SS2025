@@ -4,11 +4,22 @@ layout: default
 
 <article>
   {% include meta.html post=page %}
-  {{ content }}
+
+  {% if page.excerpt and page.url != page.permalink %}
+    <p>{{ page.excerpt }}</p>
+    <a href="{{ page.url }}">Read More</a>
+  {% else %}
+    {{ content }}
+  {% endif %}
+
   {% if page.comments != false and site.comments.isso or site.comments.disqus %}
     <hr>
-    {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
-    {% if site.comments.disqus_shortname %}<div id="disqus_thread"></div>{% endif %}
+    {% if site.comments.isso_domain %}
+      <div id="isso-thread"></div>
+    {% endif %}
+    {% if site.comments.disqus_shortname %}
+      <div id="disqus_thread"></div>
+    {% endif %}
     <noscript>Please enable JavaScript to view comments.</noscript>
   {% endif %}
 </article>
