@@ -100,13 +100,14 @@ CREATE TABLE Enrollment (
 
 ## Relational Algebra (The Math Behind Databases)  
 
-Relational algebra is the **theoretical foundation** of database queries. It’s like SQL, but more abstract.  
+Relational algebra is the **theoretical foundation** of database queries. It’s like SQL, but more abstract. It is divided into two major operstions, **Unary** and **Binary** operations.
 
 ### 🔹 Common Relational Algebra Operations  
 - **Selection (σ)** → Filters rows based on conditions.  
 - **Projection (π)** → Selects specific columns.  
 - **Union (∪)** → Combines results from two tables.  
-- **Join (⋈)** → Combines rows from two tables based on a common attribute.  
+- **Join (⋈)** → Combines rows from two tables based on a common attribute. 
+- **Cartesian product(x)** → Concatenates the tuples from both input relations. 
 
 📍 **Example:**  
 ```sql
