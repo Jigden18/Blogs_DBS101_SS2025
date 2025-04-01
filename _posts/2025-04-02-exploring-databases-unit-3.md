@@ -1,6 +1,8 @@
 ---
-title:  "EXPLORING DATABASES: Insights from Unit 3"
 layout: post
+title: "Exploring Databases - Unit 3"
+date: 2025-04-02
+categories: databases
 ---
 
 # Exploring the Foundations of Database Design: Key Learnings from Unit 1
