@@ -1,5 +1,5 @@
 ---
-title:  "EXPLORING DATABASES: Insights from Unit 3"
+title:  "Deep Dive Into ACID"
 layout: post
 ---
 
