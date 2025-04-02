@@ -1,5 +1,5 @@
 ---
-title:  "EXPLORING DATABASES : Insights from unit 1"
+title:  "EXPLORING DATABASES: Insights from Unit 3"
 layout: post
 ---
 
